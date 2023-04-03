@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest intermediário - JavaScript</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilo.css">
+
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="infor">
+                <h1 class="titulo">FICOU COM DÚVIDA?<br> NOS MANDE UMA MENSAGEM!</h1>
+                <p class="texto">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
+                    contato em menos
+                    de 24h.</p>
+
+            </div>
+
+            <div class="formulario">
+                <form method="get" action="./index.html">
+                    <input type="text" placeholder="Nome completo *" class="nome input" id="nome">
+                    <p class="alerta" id="nome">campo obrigatório *</p>
+
+                    <input type="text" placeholder="E-mail *" class="email input" id="email">
+                    <p class="alerta" id="email">campo obrigatório *</p>
+
+                    <input type="text" placeholder="Telefone *" class="telefone input" id="telefone">
+                    <p class="alerta" id="telefone">campo obrigatório *</p>
+
+                    <textarea rows="4" placeholder="Mensagem *" class="mensagem input" id="mensagem"></textarea>
+                    <p class="alerta" id="mensagem">campo obrigatório *</p>
+
+                    <p class="campo-obrigatorio">*campos obrigatórios</p>
+                    <input type="button" id="botao-enviar" class="botao" value="Enviar">
+
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>

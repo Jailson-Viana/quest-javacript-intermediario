@@ -1,0 +1,121 @@
+html {
+    background-color: #E5E5E5;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background-size: contain;
+    background-repeat: repeat;
+    background-image: url(../imagens/bg-repeat.jpg);
+    width: 800px;
+    height: 402px;
+    
+}
+
+.infor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-right: 22px;
+}
+
+.infor .titulo {
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23px;
+    padding-left: 50px;
+    padding-bottom: 11px;
+    line-height: 24px;
+}
+
+.infor .texto {
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding-left: 50px;
+    line-height: 18px;
+}
+
+.formulario {
+    height: 378px;
+    width: 340px;
+    margin: 12px 50px;
+    padding: 21px 18px;
+    background-color: #FFFFFF;
+}
+
+.formulario .nome,
+.email,
+.telefone {
+    padding: 8px;
+    Width: 298px;
+
+}
+.formulario .email, .telefone, .mensagem{
+    margin-top: 5px;
+}
+.formulario .nome,
+.telefone,
+.email,
+.mensagem,
+.botao::placeholder {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.formulario .mensagem {
+    Width: 298px;
+    padding: 8px;
+    resize: none;
+
+}
+
+.formulario .campo-obrigatorio {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.formulario .botao {
+    font-size: 15px;
+    font-weight: 700;
+    Width: 298px;
+    color: #ffff;
+    background-color: #3CCC87;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+/* 
+Chamada no Javascript */
+.formulario .alerta {
+    font-weight: 400;
+    font-size: 8px;
+    color: #F52E2E;
+    opacity: 0;
+}
+.alerta.mostrar{
+    opacity: 1;
+}
